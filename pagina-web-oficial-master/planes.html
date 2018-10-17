@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet"  href="css/planes.css">
+	
+
+	<link rel="stylesheet"  href="css/sebastian.css">
+	<link rel="stylesheet"  href="css/redes1.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Registro.css">
+
+	<script src="js/validar.js"></script>
+	<title>Big Cloud</title>
+</head>
+<body>
+	 <div class="candi">
+
+ 	<ul>
+	
+	 
+	    <li>
+	    <a  class="icon-facebook" href="https://twitter.com/?lang=es">
+	    </a>
+	    </li>
+
+	    <li>
+	    <a  class="icon-twitter-1" href="https://twitter.com/?lang=es">
+        </a>
+        </li>
+
+	    <li>
+	    <a  class="icon-gplus" href="https://plus.google.com/discover">
+	    </a>
+	    </li>
+
+	    <li>
+	    <a  class="icon-pinterest" href="https://co.pinterest.com/">
+	    </a>
+	    </li>
+
+	    <li>
+	    <a  class="icon-gmail" href="https://www.gmail.com/mail/help/intl/es/about.html?iframe">
+	    </a>
+	    </li>
+	
+		
+</ul>
+
+	   	
+
+
+
+</div>
+	<header>
+		
+			<div class="contenedor">
+				<a href="inicio.html"><img src="img/logo-bc.png" ></a>
+				
+			</div>
+
+	</header>
+	
+
+	<div id="container">
+		<div class="contenedor1">
+			<h2>Contrate su plan en Big Cloud 
+				<a href="Paginatwo.html"> Ver planes 
+			</a>
+			</h2>
+		</div>
+		
+<fieldset class="field" 
+	">
+		<legend >1.Elija su plan</legend>
+		
+<div class="content"> Plan 
+	                  <br>
+	 
+				 
+	<select name="opciones" placeholder="nombre">
+
+
+    <option value="2" selected>Escoja un plan de la lista</option>
+
+
+    <option value="1">Gratuito</option>
+    <option value="3">Premium</option>
+    <option value="4">Profesional</option>
+
+  
+   </select>
+				 
+   
+    <p> Facturación
+
+    <input type="radio" name="select" value="Anual"> Anual
+    <input type="radio" name="select" value="Trimestral"> Trimestral
+    <input type="radio" name="select" value="Mensual">Mensual
+
+    </p>
+
+
+</div>
+
+</fieldset>
+
+<fieldset class="field">
+		<legend>2.Cree una cuenta de administrador
+		</legend>
+
+		<div class="content">
+
+         <h1>Campos Obligatorios</h1>
+
+
+   <form action="Web.html" method="post" class="form-register" onsubmit="return validar();">
+			
+			<label for="nombre">Nombre de usuario*</label>
+			 <br>
+                
+			<input type="text" id="nombre" name="nombre" placeholder="nombre"> 
+			<br>
+
+			<label for="contraseña">Contraseña*</label> 
+			<br>
+
+			<input type="password" id="contraseña" name="contraseña" placeholder="contraseña"> 
+			<br>
+
+			<label for="repetirContraseña">Repetir contraseña*</label> 
+			<br>
+
+			<input type="password" id="repetirContraseña" name="repetirContraseña" placeholder="repetir Contraseña" required>
+			<br>
+
+				
+
+</fieldset>
+
+<fieldset class="field">
+		
+		<legend>3.Datos del administrador</legend>
+
+<div class="content">
+
+			<label for="nombre">Nombre*</label>
+			<br>
+
+                
+			<input type="text" id="nombre" name="nombre" placeholder="nombre">
+			<br>
+
+
+			<label for="apellidos">Apellidos*</label>
+			<br>
+
+
+			<input type="text" id="apellidos" " name="apellidos" placeholder="apellidos">
+			<br>
+
+
+			<label for="Telèfono">Telèfono*</label>
+			<br>
+
+
+			<input type="text" id="Telèfono" name="Telèfono" placeholder="Telèfono"  required>
+			<br>
+
+
+			<label for="correoElectronico">Correo Electronico*</label>
+			<br>
+
+
+			<input type="email" id="correoElectronico" name="correoElectronico" placeholder="Correo Electronico"  required>
+			<br>
+
+
+			<label for="FechaNacimiento">Fecha Nacimiento*</label>
+			<br>
+
+
+
+			<input type="text" id="FechaNacimiento" name="FechaNacimiento" placeholder="DD/MM/AAA" required>
+			<br>
+
+			<label for="NombreEmpresa">Nombre de la empresa*</label>
+			<br>
+
+
+			<input type="text" id="NombreEmpresa" name="NombreEmpresa" placeholder="Nombre de la empresa"  required>
+			<br>
+
+
+			Tamaño de la empresa 
+			<br>
+
+
+  <select name="opciones" placeholder="nombre">
+
+
+
+            <option value="2" selected>Escoja un elemento de la lista
+            </option>
+
+
+            <option value="1">menos de 50 trabajadores
+            </option>
+
+            <option value="3">50 a 99
+            </option>
+            <option value="4">100 a 499
+            </option>
+            <option value="5">más de 500
+            </option>
+
+
+
+           </select>
+       </div>
+</fieldset>
+
+
+<div class="field">
+
+		<input type="checkbox" name="">Acepto la politica de proteciòn de datos de Big Cloud
+		<br>
+
+
+        <form action="Web.html" method="post" class="form-register" onsubmit="return validar();">
+
+
+		<input type="submit" value="Contratar" class="btn-enviar">
+		<br>
+
+
+</form>
+	
+</div>
+
+
+
+</div>
+
+<footer class="final">
+
+		<div class="contenedor1">
+			<h1>Actividad realizada por Sebastian Sierra
+			</h1>
+
+		    <h2>Fotografias de la portada
+		    <a href="https://unsplash.com/"/>Unsplash
+		    </a>
+		    </h2>
+
+
+		    <img src="img/final.png" >
+
+
+		</div>
+		
+
+		
+
+
+</footer>
+
+
+	
+</body>
+</html>

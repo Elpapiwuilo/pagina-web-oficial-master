@@ -1,0 +1,366 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: rgba(213, 219, 219,0.5);
+
+}
+header{
+	background: #fff;
+	width: 100%;
+	height: 9vh;
+
+}
+#Madre{
+	width: 100%;
+}
+
+header> .contenedor> a > img{
+	width: 4%;
+	margin-left: 560px;
+	height: 70px;
+	margin-top: 20px;
+
+}
+
+.containers{
+	margin-top: 35px;
+}
+#contenedor{
+	width: 50%;
+	margin: auto;
+	height: 15vh;
+	margin-top: 45px;
+
+
+}
+#contenedor> h1{
+	font-size: 45px;
+	 font-family: 'Krub', sans-serif;
+
+
+
+
+}
+#contenedor> h1> img{
+	margin-top: 18px;
+}
+#contenedor> .containers h1{
+	font-size: 25px;
+	color:crimson;
+	margin-top: -37px;
+	margin-left: 55px;
+	 font-family: 'Krub', sans-serif;
+
+}
+.cajas{
+	margin-left: 1270px;
+	margin-top:15px ;
+}
+.cajas>h1{
+	margin-left: 15px;
+
+
+}
+.cajas .containert,.containertt{
+	display: inline-block;
+	margin-left: 20px;
+	background: #5E5B4F ;
+	width: 20%;
+	height: 10vh;  
+
+
+}
+.cajas> h1{
+	margin-left: 200px;
+	color: crimson;
+	clear: both;
+	font-size: 24px;
+    font-family: 'Krub', sans-serif;
+
+}
+
+
+
+.cajas .containert,.containertt h1,h2{
+	float: left;
+
+}
+
+.cajas .containert>h2{
+	color:#fff;
+	font-size: 30px;
+	margin-top: -40px;
+	margin-left: 80px;
+
+}
+.cajas .containertt>.empresa>h2{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-left: 20px;
+
+}
+.cajas> .containert>h1{
+	border-right: 2px solid #fff;
+	font-size: 85px;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 55px;
+
+}
+.cajas h3{
+	margin-top: -31px;
+	margin-left: 620px;
+	font-size: 24px;
+	color: crimson;
+	font-family: 'Krub', sans-serif;
+
+}
+
+
+.cajas> .containertt>.empresa>h1{
+	border-right: 2px solid #fff;
+	font-size: 85px;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 55px;
+
+}
+
+.cajas .containert>.verde{
+	color: #27AE60;
+}
+
+.cajas .containert>.naranja{
+	color: #F39C12;
+}
+
+.cajas .containertt >.empresa>.otro{
+	color: #17A589;
+}
+
+
+table{
+
+width: 65%;
+top: 10px;
+margin-top: 10px;
+text-align: left;
+margin: auto;
+height: 80px;
+margin-bottom: 35px;
+font-family: 'Krub', sans-serif;
+
+}
+
+tr,td{
+	width: 400px;
+	text-align: center;
+	border-bottom: 2px solid gray;
+	padding: 30px;
+	font-size: 20px;
+}
+table>.ultimo>.unito,.unito,.unito {
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+
+.ulti{
+	margin-bottom: 25px;
+}
+.ulti > a{
+	font-size: 25px;
+	padding: 15px 25px;
+	text-decoration: none;
+	background: crimson;
+	margin-left: 1810px;
+	color:#fff;
+
+
+}
+#last{
+	width: 100%;
+	background: black;
+	border-top: 8px solid crimson;
+
+}
+.last{
+	width: 50%;
+	margin: auto;
+	height: 15vh;
+	margin-top: 45px;
+	font-size: 15px;
+
+
+
+}
+
+#last h1,h2{
+	margin-bottom: 8px;
+	color: #fff;
+}
+#last h2{
+	clear: both;
+margin-bottom: 15px;
+}
+#last > a {
+
+    text-decoration: none;
+	border-bottom: 1px dashed #fff;
+	color: #fff;
+
+}
+#last >.last>h2>a:nth-child(1){
+color: #fff;
+border-bottom: 1px dashed #fff;
+text-decoration:none; 
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:768px) {
+table{
+	width: 10%;
+	height: 15%;
+}	
+
+table> tr,td{
+	font-size: 15px;
+}
+table>.ultimo>.unito,.unito,.unito {
+		font-size: 14px;
+}	
+
+.cajas> .containert ,.containertt{
+	margin-right: 150px;
+}
+#contenedor> h1{
+	font-size: 25px;
+	}
+.cajas{
+	margin-left: 125px;
+}
+.cajas h1{
+	margin-left: 140px;
+	font-size: 15px;
+}
+.cajas .containert,.containertt{
+	margin-left: 0px;
+	width: 22%;
+	height:8vh;  
+}
+.cajas>.containert{
+	height:5vh; 
+	margin-bottom: 5px; 
+	margin-right: 125px;
+
+}
+.cajas>.containert >.verde{
+	font-size: 45px;	
+	 
+}
+.cajas>.containert >.naranja{
+	font-size: 45px;
+	margin-right: -15px;
+	 
+}
+ .cajas>.containertt{
+ 	height: 5vh;
+ 	margin-right: -70px;
+ 	margin-top: 2px;
+ }
+
+.empresa{
+	margin-left: -25px;
+}
+
+.cajas>.containert{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+.cajas .containert>h2{
+	font-size: 15px;
+	margin-top: -30px;
+	margin-left: 70px;
+
+}
+.cajas .containertt>.empresa>h2{
+	font-size: 15px;
+	margin-top: -30px;
+	margin-left: 82px;
+}
+.cajas> .containert>h1{
+	font-size: 85px;
+	margin-top: 10px;
+	margin-left: 15px;
+	
+
+}
+.cajas h3{
+	margin-top: -21px;
+	margin-left: 360px;
+	font-size: 14px;
+}
+
+
+.cajas> .containertt>.empresa>h1{
+	font-size: 45px;
+	margin-top: 10px;
+	margin-left: 25px;
+
+
+}
+header>.contenedor>a>img{
+	margin-left: 105px;
+	width: 18%;
+
+}
+
+.ulti > a{
+	font-size: 15px;
+	margin-left: 440px;
+	
+
+
+}
+.last{
+	margin-right: 260px;
+	margin-top: -15px;
+
+}
+.last>h1,h2{
+	font-size: 20px;
+
+}
+
+#last{
+	height: 16vh;
+}
+
+
+
+}
+
+
+

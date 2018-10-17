@@ -1,0 +1,130 @@
+
+header> .contenedor> a > img{
+	width: 4%;
+	margin-left: 560px;
+	height: 70px;
+	margin-top: 20px;
+
+}
+.field{
+ border-color:#F00;
+ width: 50%;
+ margin: auto;
+ margin-bottom: 25px;
+}
+.field legend{
+	text-align: left;
+}
+.content{
+	margin-left: 30px;
+}
+h1{
+	font-size: 20px;
+	text-align: left;
+}
+#container{
+	background: rgba(213, 219, 219,0.5);
+	height: 99vh;
+}
+#container .content{
+	margin-right: 124px;
+}
+legend{
+	color: red;
+	font-size: 20px;
+
+
+}
+.final{
+	
+	width: 100%;
+	margin: auto;
+	background: black;
+	color:#fff;
+	height: 15vh;
+	border-top: 10px solid crimson;
+	margin-top: -5px;
+
+	
+
+}
+#container >.contenedor1> h2>a{
+text-decoration: none;
+font-size: 25px;
+color: gray;
+border-bottom: 2px dashed gray;
+
+}
+ #container >.contenedor1> h2{
+ 	font-size: 45px;
+ 	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.contenedor1 {
+	font-size: 20px;
+	width: 100%;
+	margin-top: 45px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 560px;
+
+	
+}
+.final>.contenedor1>h2{
+	font-size: 20px;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+
+	
+}
+.final>.contenedor1{
+	
+	display: table;
+	margin-right: 560px;
+
+
+}
+.final>.contenedor1 a{
+	text-decoration: none;
+	border-bottom: 1px dashed #fff;
+	color: #fff;
+}
+.btn-enviar{
+	background: crimson; 
+	text-decoration:none;
+	color: #fff;
+	padding: 15px 20px;
+	width: 150px;
+	height: 45px;
+	margin-top: 20px;
+	margin-bottom: 78px;
+	
+}
+@media (max-width: 768px) {
+	header>.contenedor>a>img{
+		margin-left: 100px;
+		width: 15%;
+		height: 5vh;
+
+	}
+	#container>.contenedor1>h2{
+		font-size: 25px;
+		margin-left: -440px;
+	}
+	.field>input:nth-child(1){
+		margin-left: -65px;
+
+
+	}
+	.btn-enviar{
+		margin-left: -65px;
+
+	}
+.final>.contenedor1{
+		margin-left: 100px;
+
+
+}
+	
+}

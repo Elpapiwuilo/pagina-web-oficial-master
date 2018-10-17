@@ -1,0 +1,45 @@
+#nombre,
+#contraseña,
+#repetirContraseña,
+#apellidos,#Telèfono,
+#correoElectronico,
+#FechaNacimiento,
+#NombreEmpresa,
+#listas
+
+
+{
+	margin-bottom: 15px;
+	padding: 15px ;
+	width: 300px;
+	height: 2px;
+	font-size: 20px;
+	border-radius: 2px;
+	border:2px solid darkgray;
+}
+select{
+	width: 300px;
+	height: 25px;
+	font-size: 20px;
+	border-radius: 2px;
+	border:2px solid darkgray;
+	margin-bottom: 25px;
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

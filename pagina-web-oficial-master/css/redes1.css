@@ -1,0 +1,145 @@
+.candi>ul{
+	margin-top: 505px;
+	margin-left: -15px;
+}
+
+.candi>ul>li{
+list-style: none;
+padding: 5px;
+height: 80px;
+width: 55px;
+margin-bottom: 5px;
+
+}
+.candi>ul>li>a{
+	text-decoration: none;
+	padding: 25px 25px;
+	width: 35px;
+	display: block;
+	margin: -45px;
+	border-radius: 80px;
+
+}
+.icon-facebook{
+	color: #fff;
+	font-size: 25px;
+	background-color: #1F618D;
+
+
+
+}
+.icon-twitter-1{
+	color: #fff ;
+	font-size: 25px;
+	background-color: #5DADE2  ;
+}
+.icon-gplus{
+	color:#fff;
+	font-size: 25px;
+	background-color: #E74C3C  ;
+}
+.icon-pinterest{
+	color:#fff ;
+	font-size: 25px;
+	background-color: crimson;
+}
+.icon-gmail{
+	color:#E73723  ;
+	font-size: 22px;
+	background-color:#F2F4F4    ;
+}
+ul>li>.icon-facebook:hover{
+font-size: 25px;
+
+-moz-transform: scale(1.2) rotate(2deg);
+-webkit-transform: scale(1.2) rotate(2deg);
+-o-transform: scale(1.2) rotate(2deg);
+-ms-transform: scale(1.2) rotate(2deg);
+transform: scale(1.2) rotate(2deg);
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+
+}
+ul>li>.icon-twitter-1:hover{
+font-size: 25px;
+
+-moz-transform: scale(1.2) rotate(2deg);
+-webkit-transform: scale(1.2) rotate(2deg);
+-o-transform: scale(1.2) rotate(2deg);
+-ms-transform: scale(1.2) rotate(2deg);
+transform: scale(1.2) rotate(2deg);
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+
+}
+ul>li>.icon-gplus:hover{
+font-size: 25px;
+
+-moz-transform: scale(1.2) rotate(2deg);
+-webkit-transform: scale(1.2) rotate(2deg);
+-o-transform: scale(1.2) rotate(2deg);
+-ms-transform: scale(1.2) rotate(2deg);
+transform: scale(1.2) rotate(2deg);
+
+
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+
+}
+ul>li>.icon-pinterest:hover{
+font-size: 25px;
+
+
+-moz-transform: scale(1.2) rotate(2deg);
+-webkit-transform: scale(1.2) rotate(2deg);
+-o-transform: scale(1.2) rotate(2deg);
+-ms-transform: scale(1.2) rotate(2deg);
+transform: scale(1.2) rotate(2deg);
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+
+}
+ul>li>.icon-gmail:hover{
+font-size: 25px;
+
+-moz-transform: scale(1.2) rotate(2deg);
+-webkit-transform: scale(1.2) rotate(2deg);
+-o-transform: scale(1.2) rotate(2deg);
+-ms-transform: scale(1.2) rotate(2deg);
+transform: scale(1.2) rotate(2deg);
+
+
+-webkit-transition: all 1000ms ease-in-out;
+-moz-transition: all 1000ms ease-in-out;
+-ms-transition: all 1000ms ease-in-out;
+-o-transition: all 1000ms ease-in-out;
+transition: all 1000ms ease-in-out;
+
+}
+.candi{
+	margin-left: 35px;
+	position: fixed;
+	left: 0;
+	top: 100px;
+
+	z-index: 8000;
+
+}
+
+
